@@ -1,0 +1,101 @@
+/* All CSS styles of this milestone is in this file */
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF; 
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 10px 20px;
+    border-style: none;
+    margin-bottom: 167px;
+}
+
+/* Banner style starts from here */
+.banner{
+    /* display: flex; */
+    margin: 0;
+    justify-content: right;
+    
+}
+.banner-title{
+    
+   
+    /* max-width: 525px; */
+    font-weight: 700;
+    font-size: 65px;
+    
+    padding-bottom: 0px;
+}
+.banner-description{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 32px;
+    /* margin-left: 550px; */
+    /* max-width: 494px; */
+    
+    color: #444343;
+
+}
+
+
+.header{
+    
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    
+}
+.rightSide{
+    padding-top: 216px;
+    text-align: right;
+    margin-left: 845px;
+    padding-right: 230px;
+}
+.rightSide .banner-description{
+    padding-left: 31px;
+}
+
+/* main section styles */
+section{
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.character{
+    margin-left: 210px;
+    margin-right: 87px;
+    
+}
+.failure{
+    margin-right: 327px;
+    margin-top: 234px;
+}
+.failure-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-bottom: 24px;
+    color: #151414;
+}
+.failure-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-bottom: 16px;
+}
+
+.failure p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
