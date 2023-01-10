@@ -244,12 +244,14 @@ i{
     color: #FFFFFF;
     margin-bottom: 31px;
 }
-#email{
+.form-content{
     width: 325px;
     height: 64px;
     background-color: transparent;
     border-color: white;
     border-radius: 5px;
+    margin-bottom: 7px;
+    color: white;
 }
 
 #btn{
@@ -260,9 +262,10 @@ i{
     font-size: 20px;
     line-height: 24px;
     text-align: center;
+    margin-top: 15px;
 
     padding: 21px 36px;
     border-style: none;
-    margin-top: 16px;
+    /* margin-top: 16px; */
     margin-bottom: 62px;
 }
