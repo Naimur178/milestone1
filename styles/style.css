@@ -10,7 +10,7 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
-    padding: 10px 20px;
+    padding: 21px 36px;
     border-style: none;
     margin-bottom: 167px;
 }
@@ -71,8 +71,7 @@ section{
 
 .character{
     margin-left: 210px;
-    margin-right: 87px;
-    
+    margin-right: 87px; 
 }
 .failure{
     margin-right: 327px;
@@ -98,4 +97,171 @@ section{
     font-size: 16px;
     line-height: 26px;
     color: #444343;
+}
+i{
+    color: #1bdb8b;
+}
+
+/* Plan section style strarts from here  */
+
+.plan-section{
+    /* margin: 124px px; */
+    margin-top: 135px;
+    padding-top: 5px;
+    max-width: 1141px;
+    margin-left: 230px;
+    margin-bottom: 124px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #151414;
+}
+.plans{
+    display: flex;
+    gap: 86px;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    padding-top: 34px;
+    color: #151414;
+    padding-bottom: 16px;
+}
+.plan-description{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+.plan-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Banner watch section */
+.banner2-section{
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url("/images/watch.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1140px;
+    margin-left: 230px;
+    margin-right: 229px;
+    border-radius: 8px;
+    border-style: none;
+    mix-blend-mode: multiply;
+}
+.banner2-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-top: 66px;
+    padding-left: 63px;
+    padding-bottom: 24px;
+    max-width: 459px;
+
+    color: #FFFFFF;
+}
+.banner2-btn{
+    color: #FD6E0A;
+    border-radius: 5px;
+    background: #FFFFFF; 
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    padding: 21px 36px;
+    border-style: none;
+    margin-left: 63px;
+    margin-bottom: 167px;
+    margin-bottom: 62px;
+}
+
+/* footer section starts from here  */
+.footer{
+    background: #151414;;
+}
+.contact-section{
+    display: flex;
+    gap: 341px;
+}
+.future{
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-left: 238px;
+    max-width: 485px;
+}
+.future-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.future-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.con-email{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.con-phone{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.con-icon{
+    margin-right: 17px;
+}
+
+.subscription{
+    margin-top: 130px;
+}
+.subscript-title{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+#email{
+    width: 325px;
+    height: 64px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 5px;
+}
+
+#btn{
+    color: #FD6E0A;
+    border-radius: 5px;
+    background: #FFFFFF; 
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    padding: 21px 36px;
+    border-style: none;
+    margin-top: 16px;
+    margin-bottom: 62px;
 }
