@@ -108,9 +108,10 @@ i{
     /* margin: 124px px; */
     margin-top: 135px;
     padding-top: 5px;
-    max-width: 1141px;
+    max-width: 1140px;
     margin-left: 230px;
     margin-bottom: 124px;
+    margin-right: 229px;
 }
 .section-title{
     font-weight: 700;
@@ -126,7 +127,7 @@ i{
 }
 .plan-title{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 29px;
     line-height: 35px;
     text-align: center;
     padding-top: 34px;
@@ -166,7 +167,7 @@ i{
     padding-top: 66px;
     padding-left: 63px;
     padding-bottom: 24px;
-    max-width: 459px;
+    /* max-width: 459px; */
 
     color: #FFFFFF;
 }
